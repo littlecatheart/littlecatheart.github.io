@@ -1765,7 +1765,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #81ffff;
+  background: #bfd14a;
 }
 .feed-link,
 .chat {
@@ -2017,6 +2017,14 @@ pre .javascript .function {
     transform: scale(1.1);
   }
 }
+.gt-header a,
+.gt-comments a,
+.gt-popup a {
+  border-bottom: none;
+}
+.gt-container .gt-popup .gt-action.is--active:before {
+  top: 0.7em;
+}
 .local-search-pop-overlay {
   position: fixed;
   width: 100%;
@@ -2122,6 +2130,10 @@ pre .javascript .function {
   top: 50%;
   transform: translate(-50%, -50%);
   color: #ccc;
+}
+.has-jax {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .page-archive .archive-page-counter {
   position: relative;
